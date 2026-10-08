@@ -11,6 +11,8 @@ brew tap AnielloFalcone/sorayura
 brew install --cask AnielloFalcone/sorayura/sorayura
 ```
 
+If Homebrew requires explicit trust for third-party Casks, review `Casks/sorayura.rb` and authorize only this Cask with `brew trust --cask AnielloFalcone/sorayura/sorayura`, then repeat the install command.
+
 Initial requirements: Apple Silicon and macOS 14 or later. Real-world testing has been on macOS 27.0.1; other macOS versions still need verification.
 
 ## Update
